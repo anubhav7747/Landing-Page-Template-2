@@ -1,0 +1,393 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Black Color */
+.black-color {
+    background-color: black;
+    color:white;
+    padding-top: 60px;
+}
+
+
+.green {
+    color: green;
+    font-family: 'Dancing Script', cursive;
+    /* background-color: orange; */
+    width: fit-content;
+    /* justify-content: center;
+    align-items: center; */
+    margin: auto;
+    /* padding-top: 30px; */
+    /* height: 20px; */
+    font-size: 50px;
+}
+
+.big-font1 {
+    font-family: 'Nunito Sans', sans-serif;
+    /* background-color: orange; */
+    width: 623px;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 75px;
+    font-weight: lighter;
+
+}
+
+.big-font2 {
+    font-family: 'Nunito Sans', sans-serif;
+    /* background-color: orange; */
+    width: 328px;
+    margin: auto;
+    font-size: 75px;
+    font-weight: lighter;
+}
+
+.left-right {
+    /* margin-top: 100px;
+    margin-right: 50px;
+    margin-bottom: 0;
+    margin-left: 50px; */
+
+    margin: 0px 100px 0 100px;
+    padding: 70px;
+    /* border: 5px solid orange; */
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+/* .left {
+    border-top-right-radius: 20px;
+} */
+
+/* .centered img { */
+    /* margin-left: 95px; */
+    /* opacity: 0.7; */
+    /* justify-content: center;
+    align-items: center; */
+/* } */
+
+/* .centered h2 { */
+    /* font-family: 'Nunito Sans', sans-serif; */
+    /* font-weight: lighter; */
+    /* font-size: 30px; */
+    /* width: fit-content; */
+    /* background-color: orange; */
+    /* margin: auto; */
+    /* margin-left: 95px; */
+/* } */
+
+/* .centered {
+    position: absolute;
+    top: 80%;
+} */
+
+.down {
+    margin-top: 110px;
+    padding-left: 30px;
+    /* border: 2px solid red; */
+}
+
+.gap {
+    margin-bottom: 40px;
+}
+
+.len {
+    width: 325px;
+    height: 35px;
+    border: white;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 10px;
+    margin-left: 30px;
+    background-color: green;
+    color: whitesmoke;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: larger;
+    height: 50px;
+}
+
+.last {
+    position: absolute;
+    /* color: brown; */
+    top: 150%;
+    font-family: 'Nunito Sans', sans-serif;
+    width: fit-content;
+    /* margin: auto; */
+    /* justify-content: center;
+    align-items: center; */
+    /* margin-top: 0; */
+    margin-left: 22vw;
+    /* margin-right: 25px; */
+    /* padding-left: 25px;
+    padding-right: 25px; */
+    font-size: 25px;
+    text-align: center;
+}
+
+
+
+/* #949393 Color */
+.whitesmoke-color {
+    /* border: 5px solid orange; */
+    height: 525px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.set-size {
+    margin-top: 75px;
+    margin-left: 125px;
+    /* border: 5px solid red; */
+    width: 175px;
+    padding: 50px;
+    height: 275px;
+}
+
+.set-size img {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* White Color */
+.white-color {
+    height: 500px;
+    /* border: 5px solid orange; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px;
+}
+
+.white-left {
+    /* border: 5px solid red; */
+}
+
+.white-left img {
+    display: block;
+    margin:auto;
+    /* border: 5px solid orangered; */
+}
+
+.white-right {
+    /* border: 5px solid brown; */
+    padding-top: 25px;
+    padding-left: 75px;
+    padding-right: 75px;
+    width: 500px;
+}
+
+
+
+/* Green color */
+.green-color{
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 75px;
+    /* border: 5px solid orange; */
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.green-color h2 {
+    color: white;
+    text-align: center;
+}
+
+.green-color div {
+    /* border: 5px solid orange; */
+    margin-top: 75px;
+    padding-left: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+
+
+
+/* white color again */
+.white-color-again {
+    /* border: 5px solid orange; */
+}
+
+.white-color-again .span1 {
+    /* border: 5px solid red; */
+    width: fit-content;
+    /* font-family: 'Nunito Sans', sans-serif; */
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    margin: auto;
+    margin-top: 125px;
+    letter-spacing: 5px;
+    word-spacing: 12px;
+}
+
+.white-color-again .span2 {
+    /* border: 5px solid brown; */
+    width: fit-content;
+    /* font-family: 'Nunito Sans', sans-serif; */
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 30px;
+    /* font-weight: lighter; */
+}
+
+.image-link {
+    /* border: 5px solid gray; */
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 56.30%;
+    height: 62.5%;
+}
+
+
+
+/* #fafafa */
+.whitesmoke-color-again {
+    /* border: 5px solid orange; */
+    padding: 100px;
+    /* display: grid;
+    grid-template-rows: 1fr 1fr; */
+
+}
+
+.smoke {
+    /* border: 5px solid orange; */
+    /* flex-direction: column; */
+    width: fit-content;
+    /* justify-content: center;
+    align-items: center; */
+    margin: auto;
+    margin-top: 50px;
+}
+
+.fit-after-smoke {
+    /* border: 5px solid orange; */
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    /* line-height: 40px; */
+}
+
+
+
+/* white-color-again-1 */
+.white-color-again-1 .head{
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    word-spacing: 7px;
+
+}
+
+.again-1 {
+    /* border: 5px solid orange; */
+}
+
+.again-1 div {
+    /* border: 5px solid orange; */
+    /* width: fit-content; */
+    display: flex;
+    /* justify-content: space-between; */
+    /* text-align: center; */
+    /* margin: auto; */
+    margin-left: 500px;
+}
+
+.again-1 div h3 {
+    margin-left: 10px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.again-1 p {
+    width: 525px;
+    word-spacing: 5px;
+    margin: auto;
+    /* border: 5px solid orange; */
+    /* width: fit-content; */
+    margin-left: 555px;
+    font-size: larger;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+
+/* last color */
+.last-color {
+    color: #fff;
+    padding-top: 75px;
+}
+
+.lhead{
+    /* margin-top: 50px; */
+    /* border: 5px solid orange; */
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+.lhead h1 {
+    font-weight: 100;
+    font-size: 50px;
+    word-spacing: 7px;
+}
+
+.lpara {
+    /* border: 5px solid orange; */
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    word-spacing: 2px;
+}
+
+.lbtn {
+    /* border: 5px solid orange; */
+    margin-top: 30px;
+    margin-left: 37.5vw;
+    background-color: green;
+    color: whitesmoke;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: larger;
+    height: 50px;
+}
+
+
+
+/* END */
+.end {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.h3Left {
+    /* border: 5px solid orange; */
+    font-size: 30px;
+    margin: auto;
+
+}
+
+.spanRight {
+    /* border: 5px solid orange; */
+    width: fit-content;
+    margin: auto;
+}
